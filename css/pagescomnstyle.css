@@ -1,0 +1,13 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: #eee;
+}
+.body{
+    height: 1000px;
+    margin-top: 120px;
+}
+
+

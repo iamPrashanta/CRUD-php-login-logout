@@ -1,0 +1,167 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 17px;
+    background-color: #eee;
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 180px;
+    height: 100%;
+    float: left;
+    box-shadow: 4px 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+header h2{
+    margin: 0;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 25px 0 0 0;
+    font-size: 20px;
+    background-color: black;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 18;
+}
+header ul{
+    padding: 20px;
+}
+header li{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 14px;
+}
+header li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(49, 49, 49, 0.871);
+}
+header li a:hover{
+    color: black
+}
+header li a.active{
+    color: black;
+}
+.main{
+    background-color: #eee;
+    max-width: 530px;
+    height: auto;
+    margin: 0 auto 0 200px;
+    padding-top: 70px;
+}
+.main form table tr td{
+    padding: 10px 0;
+}
+
+table{
+    padding: 20px;
+    width: 500px;
+}
+table td{
+    width: calc(100% / 2);
+}
+table td:nth-child(1){
+    text-align: center;
+}
+input[type="password"],
+table input[type="text"],
+input[type="email"]{
+    outline: none;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    height: 30px;
+    width: auto;
+    min-width: 200px;
+    transition: all 0.3s ease-in-out; 
+}
+input[type="password"]:focus,
+table input[type="text"]:focus,
+input[type="email"]:focus{
+    border-bottom: 2px solid black;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    background-color: white;
+    box-shadow: 4px 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+form a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.658);
+}
+form h4{
+    padding: 10px 0 0 10px;
+    margin: 0;
+    height: 36px;
+    background-color: rgba(5, 178, 230, 0.322);
+}
+.foot{
+    text-align:right;
+    color: black !important;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(158, 161, 160, 0.781);
+    color: gray;
+    height: 40px;
+    bottom: 0;
+    z-index: 1;
+}
+.err{
+    top: 0;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    max-width: inherit;
+    background-color: rgba(236, 38, 64, 0.781);
+    text-align: center;
+    height: 26px;
+}
+.succ{
+    top: 0;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    max-width: inherit;
+    background-color: rgba(18, 158, 90, 0.678);
+    text-align: center;
+    height: 26px;
+}
+#mainbtn1,#mainbtn2{
+    background-color: rgba(40, 40, 42, 0.863);
+    color: rgba(255, 255, 255, 0.767);
+    height: 30px;
+    width: 130px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#mainbtn2{
+    background-color: rgba(11, 141, 158, 0.863);
+}
+#mainbtn1:hover{
+    background-color: rgba(40, 40, 42, 0.938);
+    color: white;
+}
+#mainbtn2:hover{
+    background-color: rgba(14, 195, 219, 0.863);
+}
+#deleteaccount{
+   font-size: 16px;
+   float: right;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   color: red;
+   cursor: help;
+}

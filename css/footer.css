@@ -1,0 +1,50 @@
+
+#Footer{
+    height:200px;
+    background-color: rgb(19, 17, 17);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 50px;
+    color: rgb(165, 163, 163);
+    text-align: center;
+}
+#Footer h4{
+    color: rgb(172, 172, 172);
+}
+#Footer li{
+    padding: 2px 0;
+}
+#Footer a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+#Footer a:hover{
+    color: rgb(187, 185, 185);
+}
+.section1{
+    grid-column: 1/2;
+}
+.section2{
+    grid-column: 2/3;
+}
+.section3{
+    grid-column: 3/4;
+}
+.section4{
+    grid-column: 4/5;
+}
+.section5{
+    grid-column: 5/6;
+}
+.section5 ul{
+    text-align: right;
+    margin-top: 40px;
+}
+.hrline{
+    display: none;
+}
+li{
+    list-style: none;
+}

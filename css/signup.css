@@ -1,0 +1,147 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'Ruda', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.main .two{
+    margin: 100px auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.two{
+    margin-top: 70px;
+    height: calc(72px + 240px + 50px);
+    width: 400px;
+    background-color: white;
+    border-radius: 7px;
+}
+.two .top{
+    height: 72px;
+    background: #68dff0;
+}
+.two .top h2 {
+    margin: 0;
+    padding: 25px 20px;
+    text-align: center;
+    background: #68dff0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.two .bottom{
+    font-size: 15px;
+    height: 240px;
+    color: #797979;
+    padding: 30px 20px 0 30px;
+    background-color: white;
+}
+.two .bottom .emailfield,
+.two .bottom .userfield{
+    border: 2px solid black;
+    margin-bottom: 6px;
+    width: 200px;
+    height: 36px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: text;
+    outline: none;
+    padding: 14px 5px;
+    background: transparent url("../img/user.jpg") no-repeat;
+    background-position: 10px 50%;
+    padding: 6px 12px 6px 40px;
+}
+.two .bottom .passfield{
+    border: 2px solid black;
+    margin-bottom: 6px;
+    width: 200px;
+    height: 36px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: text;
+    outline: none;
+    padding: 14px 5px;
+    background: transparent url("../img/pass.jpg") no-repeat;
+    background-position: 10px 50%;
+    padding: 6px 12px 6px 40px;
+}
+.two .bottom .inputfield:focus,
+.two .bottom .inputfield:hover{
+    border: 1px solid rgb(19, 193, 223);
+}
+.two .bottom .signupform table{
+    width: 360px;
+}
+#drop,#sub{
+    margin-top: 20px;
+    background: #3f838d;
+    color: rgba(255, 255, 255, 0.863);
+    height: 36px;
+    width: 140px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#drop{
+    margin: 6px 36px 0 10px;
+}
+#sub{
+    background: #68dff0;
+}
+#drop:hover{
+    background-color: rgba(39, 39, 39, 0.699);
+}
+#sub:hover{
+    background-color: rgb(36, 172, 206);
+}
+
+.two .tirmcond{
+    color: rgba(0, 0, 0, 0.623);
+    border: 1px solid white;
+    text-align: center;
+    height: 50px;
+    border-radius: 0 0 7px 7px;
+    background: rgb(255, 255, 255);
+}
+.two .tirmcond a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(29, 103, 199, 0.575);
+}
+.two .down{
+    color: rgba(0, 0, 0, 0.623);
+    text-align: center;
+    height: 40px;
+}
+.two .down a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(71, 71, 71, 0.849);
+    text-decoration: underline;
+}
+table td:nth-child(1){
+    padding-right: 8px;
+    text-align: right;
+}

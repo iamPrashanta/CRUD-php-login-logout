@@ -1,0 +1,143 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'Ruda', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.main .two{
+    margin: 100px auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.two{
+    margin-top: 100px;
+    height: calc(72px + 38px + 240px);
+    width: 330px;
+}
+.two .top{
+    background: #68dff0;
+    height: 72px;
+    border-radius: 7px;
+}
+.two .middle{
+    text-align: center;
+    height: 38px;
+    background: white;
+}
+.two .bottom{
+    background: white;
+    height: 240px;
+    color: #797979;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.two .top h2 {
+    margin: 0;
+    padding: 25px 20px;
+    text-align: center;
+    background: #68dff0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.two .middle p{
+    color: rgba(243, 44, 44, 0.849) !important;
+    padding-top: 20px;
+    margin: 0 10px;
+}
+
+.two .bottom .inputfieldone{
+    display: block;
+    width: 290px;
+    height: 50px;
+    padding: 6px 12px 6px 40px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: text;
+    outline: none;
+    background: transparent url("../img/user.jpg") no-repeat;
+    background-position: 10px 50%;
+}
+.two .bottom .inputfieldtwo{
+    display: block;
+    width: 290px;
+    height: 50px;
+    padding: 6px 12px 6px 40px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: text;
+    outline: none;
+    background: transparent url("../img/pass.jpg") no-repeat;
+    background-position: 10px 50%;
+}
+.two .bottom .inputfieldone:hover,
+.two .bottom .inputfieldtwo:focus,
+.two .bottom .inputfieldone:focus,
+.two .bottom .inputfieldtwo:hover{
+    border: 1px solid rgba(61, 176, 253, 0.897);
+    /* box-shadow: 1px 1px 1px #68dff0; */
+}
+.btn{
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    background-color: #68dff0;
+    outline: none;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #3036357c; 
+}
+.two .bottom .last{
+    text-align: center;
+}
+.two .bottom .last p{
+    line-height: 7px;
+    color: #797979;
+}
+.two .bottom .last a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.582);
+}
+.two .bottom .last a:hover{
+    color: rgb(59, 59, 59);
+}
+
+#loginresult{
+    color: red;
+}
+input[type="checkbox"]{
+    margin-bottom: 14px;
+}
